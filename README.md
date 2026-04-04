@@ -99,7 +99,7 @@ What didn’t:
 ## Author
 
 - Frontend Mentor - [@alainbahanep](https://www.frontendmentor.io/profile/alainbahanep)
-- GitHub - [FreeDev-Group](https://github.com/FreeDev-Group)
+- GitHub - [alainbahanep](https://github.com/alainbahanep)
 
 
 ## Acknowledgments
