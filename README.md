@@ -1,137 +1,107 @@
-# Develop Branch – Contribution Guide  
+# Frontend Mentor - Blog preview card solution
 
----
+This is a solution to the [Blog preview card challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/blog-preview-card-ckPaj01IcS).  
+Frontend Mentor challenges help improve coding skills by building realistic projects.
 
-## Purpose of the `develop` Branch  
 
-This is where all development happens before going to `main`.
+## Table of contents
 
-You will:
-- Work on your tasks  
-- Practice Git workflow  
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Continued development](#continued-development)
+  - [AI Collaboration](#ai-collaboration)
+- [Author](#author)
+- [Acknowledgments](#acknowledgments)
 
-Do NOT push directly to `main`
 
----
+## Overview
 
-## About This Challenge  
+### The challenge
 
-This project is based on the **Frontend Mentor – Blog Preview Card challenge**.  
+Users should be able to:
 
-https://www.frontendmentor.io/challenges/blog-preview-card-ckPaj01IcS  
+- See hover and focus states for all interactive elements on the page
 
----
 
-### Objective  
+### Screenshot
 
-Build a **blog preview card** that matches the design as closely as possible.
+![Project Screenshot](./Screenshot6.jpg)
 
-The card includes:
 
-- An illustration image  
-- A category/tag  
-- A publication date  
-- A title  
-- A short description  
-- Author information  
+### Links
 
----
+- Solution URL: [GitHub Repository](https://github.com/FreeDev-Group/blog-preview-card-main-Alain.git)
+- Live Site URL: [View Live Site](#)
 
-### Challenge Files  
 
-Before coding, take time to understand:
+## My process
 
-- `style-guide.md` → colors, fonts, spacing  
-- `design/` → desktop & mobile layouts  
-- `images/` → assets used in the project  
+### Built with
 
-Do not start coding without understanding the design.
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- Mobile-first workflow
 
----
 
-## Commit : Best Practices  
+### What I learned
 
-### When to commit  
+This project helped me strengthen my understanding of structuring clean and semantic HTML. I also improved my ability to style components using CSS variables and Flexbox.
 
-- After a small task  
-- After a meaningful change  
+Example of clean structure:
 
----
+```html
+<article class="card">
+  <h1 class="card__title">HTML & CSS foundations</h1>
+</article>
+```
 
-### Commit format  
+Example of styling:
 
-feat: add HTML structure
-style: add CSS styling
-fix: correct layout issue
-docs: update README
-setup: project setup
+```css
+.card {
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 8px 8px 0 black;
+}
+```
 
----
+### Continued development
 
-### Important  
+In future projects, I want to:
 
-When you open your PR:
+- Improve responsiveness across all screen sizes
+- Get more comfortable with CSS positioning and layouts
+- Write cleaner and more scalable CSS (BEM methodology)
+- Start integrating JavaScript for interactivity
 
-Always target `develop`, NOT the previous branch  
 
-<img width="1356" height="580" alt="image" src="https://github.com/user-attachments/assets/33d02ca0-e868-4ed8-9c09-b66815034f11" />
+### AI Collaboration
 
----
+I used ChatGPT during this project to:
 
-### Legend  
+- Help structure the HTML and CSS properly
+- Debug layout and styling issues
+- Improve code organization and best practices
 
-As shown in the image:
+What worked well:
+- Faster problem solving  
+- Better understanding of clean code structure  
 
-- Your branch appears in the orange box  
-- Click the dropdown (green box)  
-- Select `develop` (blue arrow)  
+What didn’t:
+- Sometimes I relied too much on suggestions instead of thinking deeply first  
 
----
+## Author
 
-### IMPORTANT RULE  
+- Frontend Mentor - [@alainbahanep](https://www.frontendmentor.io/profile/alainbahanep)
+- GitHub - [alainbahanep](https://github.com/alainbahanep)
 
-Even if your branch is based on another branch:
 
-Always merge into `develop`  
+## Acknowledgments
 
-This keeps the project clean and avoids dependency issues.
-
----
-
-## About "agent" and "Claude" Files  
-
-In this challenge, you may see tools like:
-
-`agent`, `Claude`
-
-These are AI assistants files.
-
----
-
-### Important  
-
-- Do NOT copy blindly  
-- Always understand the code  
-- Use them as helpers, not replacements  
-
----
-
-## Learning Objective  
-
-This challenge is not only about building UI.
-
-You are learning:
-
-- How to work step by step  
-- How to use Git correctly  
-- How to think like a developer  
-
----
-
-## Final Note  
-
-You are allowed to make mistakes.  
-
-This is part of the learning process.  
-
-We are here to learn, not to be perfect.
+Special thanks to **Salomon Mwilo** and **FreeDev Group** for their guidance and support throughout this project.
