@@ -36,7 +36,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [GitHub Repository](https://github.com/FreeDev-Group/blog-preview-card-main-Alain.git)
-- Live Site URL: [View Live Site](#)
+- Live Site URL: [View Live Site](https://freedev-group.github.io/blog-preview-card-main-Alain/)
 
 
 ## My process
